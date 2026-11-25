@@ -1,0 +1,73 @@
+{
+  "id": "pest.G_FRUIT_FLY",
+  "kind": "pest",
+  "key": "G_FRUIT_FLY",
+  "crops": [
+    "mango"
+  ],
+  "names": {
+    "en": "Fruit fly",
+    "scientific": "Bactrocera dorsalis"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The female fly puts eggs inside the skin of ripe fruit.",
+    "The maggots feed on the fruit pulp and the fruit rots."
+  ],
+  "damage": "The infested fruit rots.",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Collect the infested and fallen fruits and dispose of them. Do this 30-40 days before harvest.",
+        "Plough the orchard in November-December to expose the pupae to the heat of the sun."
+      ],
+      "biological": [
+        "Use methyl eugenol pheromone traps at 4/acre."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Collect the infested and fallen fruits and dispose of them. Do this 30-40 days before harvest.",
+        "Plough the orchard in November-December to expose the pupae to the heat of the sun.",
+        "Collect and destroy the adult flies."
+      ],
+      "biological": [
+        "Use methyl eugenol pheromone traps at 4/acre."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Collect the infested and fallen fruits and dispose of them. Do this 30-40 days before harvest.",
+        "Plough the orchard in November-December to expose the pupae to the heat of the sun.",
+        "Collect and destroy the adult flies."
+      ],
+      "biological": [
+        "Use methyl eugenol pheromone traps at 4/acre."
+      ],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Mango (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Mango.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Mango.txt"
+    }
+  ]
+}

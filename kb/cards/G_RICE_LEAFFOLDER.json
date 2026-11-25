@@ -1,0 +1,101 @@
+{
+  "id": "pest.G_RICE_LEAFFOLDER",
+  "kind": "pest",
+  "key": "G_RICE_LEAFFOLDER",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice leaf folder",
+    "scientific": "Cnaphalocrocis medinalis"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The rice leaf is folded and a small caterpillar lives inside the fold.",
+    "The leaf folder is a major rice pest in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Early to late tillering: 2 Fully damaged leaves (FDL) with larva/hill."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Plant early to avoid heavy leaf damage.",
+        "Use wider spacing and a low dose of nitrogen fertilizer."
+      ],
+      "biological": [
+        "Release Trichogramma japonicum or T. chilonis at 1 lakh/ha when you see egg masses or moths.",
+        "Protect spiders and other natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Plant early to avoid heavy leaf damage.",
+        "Use wider spacing and a low dose of nitrogen fertilizer.",
+        "Do not over-fertilize the field. Highly fertilized plots attract the moths.",
+        "Remove the causes of shade in the field. Damage is higher in shaded areas."
+      ],
+      "biological": [
+        "Release Trichogramma japonicum or T. chilonis at 1 lakh/ha when you see egg masses or moths.",
+        "Protect spiders and other natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Plant early to avoid heavy leaf damage.",
+        "Use wider spacing and a low dose of nitrogen fertilizer.",
+        "Do not over-fertilize the field. Highly fertilized plots attract the moths.",
+        "Remove the causes of shade in the field. Damage is higher in shaded areas."
+      ],
+      "biological": [
+        "Release Trichogramma japonicum or T. chilonis at 1 lakh/ha when you see egg masses or moths.",
+        "Protect spiders and other natural enemies in the field."
+      ],
+      "chemical": [
+        {
+          "active": "cartap hydrochloride",
+          "formulation": "50% SP",
+          "dose": "1000",
+          "dose_unit": "g/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "cartap hydrochloride",
+          "formulation": "4% granules",
+          "dose": "18750-25000",
+          "dose_unit": "g/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {
+    "vegetative": "Act when you count 2 fully damaged leaves with larva per hill."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

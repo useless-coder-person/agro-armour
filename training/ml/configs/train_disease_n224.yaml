@@ -1,0 +1,12 @@
+# Disease classifier baseline. Val split = field sources (PlantDoc, Paddy Doctor) only.
+model: yolo26n-cls.pt
+data: datasets/disease          # relative to $AGROARMOUR_WORK; folder layout train/val/test
+data_tag: disease27 v2 (with other__not_a_leaf)
+imgsz: 224
+epochs: 60
+patience: 15
+batch: 64                       # RTX 4050; 128 on a T4
+workers: 4
+erasing: 0.2
+seed: 0
+save_period: 5

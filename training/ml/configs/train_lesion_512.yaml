@@ -1,0 +1,8 @@
+# Lesion segmentation L1 (ml/train/train_lesion_seg.py). LR-ASPP MobileNetV3-Large, ImageNet backbone.
+imgsz: 512
+epochs: 40
+batch: 16
+workers: 4
+lr: 0.001
+weight_decay: 0.0001
+seed: 0

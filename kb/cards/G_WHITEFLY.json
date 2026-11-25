@@ -1,0 +1,116 @@
+{
+  "id": "pest.G_WHITEFLY",
+  "kind": "pest",
+  "key": "G_WHITEFLY",
+  "crops": [
+    "tomato",
+    "potato",
+    "cotton"
+  ],
+  "names": {
+    "en": "Whitefly",
+    "scientific": "Bemisia tabaci"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The adult is a small insect with a light yellow body and pure white wings.",
+    "The adults are found on the underside of the leaves."
+  ],
+  "damage": "The leaves show spots, turn yellow, curl downward and dry. The whitefly spreads the tomato leaf curl disease.",
+  "severity": {
+    "mode": "count",
+    "thresholds": {
+      "etl": "Cotton: More than 10 whiteflies found in middle region of the plant in >50% (two out of four) of plants."
+    },
+    "source_id": "S2"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Use yellow sticky traps or cards at 10/acre.",
+        "Raise barrier crops such as maize or sorghum around the field."
+      ],
+      "biological": [
+        "Spray neem seed kernel extract (NSKE) 5%.",
+        "Protect the parasitoids and the predators of the whitefly in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Use yellow sticky traps or cards at 10/acre.",
+        "Raise barrier crops such as maize or sorghum around the field.",
+        "Do field sanitation and remove the affected plants."
+      ],
+      "biological": [
+        "Spray neem seed kernel extract (NSKE) 5%.",
+        "Protect the parasitoids and the predators of the whitefly in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Use yellow sticky traps or cards at 10/acre.",
+        "Raise barrier crops such as maize or sorghum around the field.",
+        "Do field sanitation and remove the affected plants."
+      ],
+      "biological": [
+        "Spray neem seed kernel extract (NSKE) 5%.",
+        "Protect the parasitoids and the predators of the whitefly in the field."
+      ],
+      "chemical": [
+        {
+          "active": "imidacloprid",
+          "formulation": "17.8% SL",
+          "dose": "60-70",
+          "dose_unit": "ml in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "thiamethoxam",
+          "formulation": "25% WG",
+          "dose": "80",
+          "dose_unit": "g in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "spiromesifen",
+          "formulation": "22.9% SC",
+          "dose": "250",
+          "dose_unit": "ml in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Tomato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Tomato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Tomato.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Cotton (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Cotton.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Cotton.txt"
+    }
+  ]
+}

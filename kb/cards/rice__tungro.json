@@ -1,0 +1,71 @@
+{
+  "id": "disease.rice__tungro",
+  "kind": "disease",
+  "key": "rice__tungro",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice tungro disease",
+    "scientific": "Rice tungro virus"
+  },
+  "relevance_india": "medium",
+  "identify": [
+    "The photo model matched this to rice tungro disease.",
+    "Tungro is a virus disease. Green leafhoppers spread it."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {
+      "etl": "Early to late tillering: 1 Tungro infected plants/m2 & 2 GLH/hill (in fungus endemic areas)."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Use a resistant variety.",
+        "Transplant older seedlings. They are less open to virus disease."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Use a resistant variety.",
+        "Transplant older seedlings. They are less open to virus disease.",
+        "Plant early. Do not plant at the time of peak leafhopper activity.",
+        "Keep the field and the bunds free of weeds."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Use a resistant variety.",
+        "Transplant older seedlings. They are less open to virus disease.",
+        "Plant early. Do not plant at the time of peak leafhopper activity.",
+        "Keep the field and the bunds free of weeds."
+      ],
+      "biological": [],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

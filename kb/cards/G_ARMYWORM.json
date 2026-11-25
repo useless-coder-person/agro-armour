@@ -1,0 +1,95 @@
+{
+  "id": "pest.G_ARMYWORM",
+  "kind": "pest",
+  "key": "G_ARMYWORM",
+  "crops": [
+    "maize",
+    "wheat",
+    "rice"
+  ],
+  "names": {
+    "en": "Armyworm",
+    "scientific": "Mythimna separata"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The caterpillar has stripes along the body.",
+    "It feeds at dawn and dusk because it avoids sunlight."
+  ],
+  "damage": "The main sign is loss of leaves. The larvae chew the leaves from the edges. They can cut the neck of the cereal head.",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Maize: Armyworm One larva per plant."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Check the field often for the pest and its natural enemies.",
+        "Grow barrier crops like mustard around the field."
+      ],
+      "biological": [
+        "Protect natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Check the field often for the pest and its natural enemies.",
+        "Grow barrier crops like mustard around the field.",
+        "Erect bird perches at 10/ acre for predatory birds.",
+        "Do summer ploughing to expose the larvae and pupae to birds."
+      ],
+      "biological": [
+        "Protect natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Check the field often for the pest and its natural enemies.",
+        "Grow barrier crops like mustard around the field.",
+        "Erect bird perches at 10/ acre for predatory birds.",
+        "Do summer ploughing to expose the larvae and pupae to birds."
+      ],
+      "biological": [
+        "Protect natural enemies in the field."
+      ],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Maize (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Maize.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Maize.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Wheat (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Wheat.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Wheat.txt"
+    },
+    {
+      "id": "S3",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

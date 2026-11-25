@@ -1,0 +1,73 @@
+{
+  "id": "disease.maize__northern_leaf_blight",
+  "kind": "disease",
+  "key": "maize__northern_leaf_blight",
+  "crops": [
+    "maize"
+  ],
+  "names": {
+    "en": "Northern leaf blight of maize (Turcicum leaf blight)",
+    "scientific": "Exserohilum turcicum"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to northern leaf blight of maize.",
+    "This disease is also called Turcicum leaf blight. It is a major maize disease in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {
+      "etl": "Leaf blight 10% incidence."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Choose a field with good drainage.",
+        "Remove the crop debris from the field."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Choose a field with good drainage.",
+        "Remove the crop debris from the field.",
+        "Use crop rotation.",
+        "Use a balanced dose of fertilizer. Avoid a high level of nitrogen.",
+        "Use certified seed of a recommended variety."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Choose a field with good drainage.",
+        "Remove the crop debris from the field.",
+        "Use crop rotation.",
+        "Use a balanced dose of fertilizer. Avoid a high level of nitrogen.",
+        "Use certified seed of a recommended variety."
+      ],
+      "biological": [],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Maize (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Maize.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Maize.txt"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Pinned toolchain. Recorded 2026-11-16 from `pip show` in ~/cropdoc/venv (WSL2 Ubuntu 24.04) and Maven Central.
+# Rule: every .pte and the Android AAR come from ONE ExecuTorch release line.
+
+executorch            1.5.1      # Python wheel 1.5.1+cu130 (pytorch cu130 index); Android AAR org.pytorch:executorch-android:1.5.1
+executorch-android    1.5.1      # Maven Central latest as of 2026-11-16; AAR sha256 d67d39eb51e00c996162e1d9898519a622918b20e4e18ea479f5fee4fe920e72, minSdk 23
+torch                 2.14.0+cu130
+torchvision           0.29.2
+torchao               0.18.0+cu130
+ultralytics           8.4.192
+numpy                 2.3.5
+opencv-python         5.0.0.93
+pytorch-tokenizers    1.6.0
+python                3.11.17
+
+# Android build (reused from the local Gradle cache to avoid downloads)
+gradle                8.11.1
+android-gradle-plugin 8.7.3
+kotlin                2.1.0
+compose-bom           2024.12.01
+compileSdk/targetSdk  35
+minSdk                26
+jdk                   21 (Temurin 21.0.9)
+
+# Host
+gpu-driver            592.82 (CUDA 13.1), RTX 4050 Laptop 6 GB
+wsl-kernel            6.6.87.2-microsoft-standard-WSL2

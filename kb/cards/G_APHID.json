@@ -1,0 +1,115 @@
+{
+  "id": "pest.G_APHID",
+  "kind": "pest",
+  "key": "G_APHID",
+  "crops": [
+    "wheat",
+    "potato",
+    "groundnut"
+  ],
+  "names": {
+    "en": "Aphids",
+    "scientific": "Sitobion avenae"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "Aphids are small, soft-bodied, pear-shaped green insects.",
+    "They appear in large numbers on young leaves or ears in cold and cloudy weather."
+  ],
+  "damage": "Aphids suck the sap of the plant. They also spread virus diseases from plant to plant.",
+  "severity": {
+    "mode": "count",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Plant tall border crops like maize, sorghum or millet to reduce the pest.",
+        "Grow barrier crops like mustard around the field."
+      ],
+      "biological": [
+        "Spray neem seed kernel extract (NSKE) 5%.",
+        "Protect ladybird beetles, lacewings, spiders and hover flies in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Plant tall border crops like maize, sorghum or millet to reduce the pest.",
+        "Grow barrier crops like mustard around the field.",
+        "Use healthy seed.",
+        "Check the field often for the pest and its natural enemies."
+      ],
+      "biological": [
+        "Spray neem seed kernel extract (NSKE) 5%.",
+        "Protect ladybird beetles, lacewings, spiders and hover flies in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Plant tall border crops like maize, sorghum or millet to reduce the pest.",
+        "Grow barrier crops like mustard around the field.",
+        "Use healthy seed.",
+        "Check the field often for the pest and its natural enemies."
+      ],
+      "biological": [
+        "Spray neem seed kernel extract (NSKE) 5%.",
+        "Protect ladybird beetles, lacewings, spiders and hover flies in the field."
+      ],
+      "chemical": [
+        {
+          "active": "thiamethoxam",
+          "formulation": "25% WG",
+          "dose": "20",
+          "dose_unit": "g in 200 l of water per acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "imidacloprid",
+          "formulation": "17.8% SL",
+          "dose": "100-125",
+          "dose_unit": "ml/500 lit. of water",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S3"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Wheat (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Wheat.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Wheat.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Potato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Potato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Potato.txt"
+    },
+    {
+      "id": "S3",
+      "title": "Integrated Pest Management Package for Groundnut (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Groundnut.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Groundnut.txt"
+    }
+  ]
+}

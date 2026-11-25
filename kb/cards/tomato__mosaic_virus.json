@@ -1,0 +1,72 @@
+{
+  "id": "disease.tomato__mosaic_virus",
+  "kind": "disease",
+  "key": "tomato__mosaic_virus",
+  "crops": [
+    "tomato"
+  ],
+  "names": {
+    "en": "Tomato mosaic virus",
+    "scientific": "Tomato mosaic virus"
+  },
+  "relevance_india": "medium",
+  "identify": [
+    "The leaves show light and dark green patches.",
+    "The leaflets are twisted, puckered and smaller than normal.",
+    "The plant is small, pale green and thin."
+  ],
+  "damage": "The virus spreads by touch, by clothes, by hands, by plant debris and by tools.",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Select seed from healthy plants.",
+        "Rinse the seeds well and dry them in shade."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Select seed from healthy plants.",
+        "Rinse the seeds well and dry them in shade.",
+        "Remove the infected plants carefully and destroy them.",
+        "Do not transplant seedlings that have the virus disease.",
+        "Do crop rotation with crops other than tobacco, potato, chilli, capsicum and brinjal."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Select seed from healthy plants.",
+        "Rinse the seeds well and dry them in shade.",
+        "Remove the infected plants carefully and destroy them.",
+        "Do not transplant seedlings that have the virus disease.",
+        "Do crop rotation with crops other than tobacco, potato, chilli, capsicum and brinjal."
+      ],
+      "biological": [],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Tomato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Tomato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Tomato.txt"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "id": "disease.rice__bacterial_leaf_streak",
+  "kind": "disease",
+  "key": "rice__bacterial_leaf_streak",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "bacterial leaf streak of rice"
+  },
+  "relevance_india": "medium",
+  "identify": [
+    "The photo model matched this to bacterial leaf streak of rice.",
+    "Ask an expert to confirm this disease."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Remove and destroy the diseased or pest infested plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Remove and destroy the diseased or pest infested plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Remove and destroy the diseased or pest infested plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

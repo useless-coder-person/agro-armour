@@ -1,0 +1,81 @@
+{
+  "id": "pest.G_RICE_CATERPILLAR",
+  "kind": "pest",
+  "key": "G_RICE_CATERPILLAR",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice leaf-eating caterpillar (swarming caterpillar)",
+    "scientific": "Spodoptera mauritia"
+  },
+  "relevance_india": "medium",
+  "identify": [
+    "The photo model matched this to a caterpillar that eats rice leaves.",
+    "The swarming caterpillar is a regional rice pest."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Early to late tillering: 1 damaged tiller/hill or 2 larvae/ m2."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Do summer ploughing. It exposes the larvae and pupae to birds and weather.",
+        "Collect the egg masses and larvae and destroy them."
+      ],
+      "biological": [
+        "Protect spiders, mirid bugs and other natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Do summer ploughing. It exposes the larvae and pupae to birds and weather.",
+        "Collect the egg masses and larvae and destroy them.",
+        "Drag a coir rope over the crop to dislodge the caterpillars."
+      ],
+      "biological": [
+        "Protect spiders, mirid bugs and other natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Do summer ploughing. It exposes the larvae and pupae to birds and weather.",
+        "Collect the egg masses and larvae and destroy them.",
+        "Drag a coir rope over the crop to dislodge the caterpillars."
+      ],
+      "biological": [
+        "Protect spiders, mirid bugs and other natural enemies in the field."
+      ],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {
+    "OD": "The swarming caterpillar is a regional rice pest here.",
+    "WB": "The swarming caterpillar is a regional rice pest here.",
+    "JH": "The swarming caterpillar is a regional rice pest here.",
+    "CG": "The swarming caterpillar is a regional rice pest here.",
+    "PB": "The swarming caterpillar is a regional rice pest here."
+  },
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

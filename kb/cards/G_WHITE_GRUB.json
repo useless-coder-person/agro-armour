@@ -1,0 +1,94 @@
+{
+  "id": "pest.G_WHITE_GRUB",
+  "kind": "pest",
+  "key": "G_WHITE_GRUB",
+  "crops": [
+    "groundnut",
+    "potato"
+  ],
+  "names": {
+    "en": "White grub",
+    "scientific": "Holotrichia spp."
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The grub is large and shaped like the letter C.",
+    "The head is hard and brown. The grub has three pairs of legs."
+  ],
+  "damage": "The grubs feed on the roots and then on the tubers. They make irregular holes in the potato tubers.",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Groundnut: 1 grub/m2."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Do deep ploughing in summer to expose the grubs.",
+        "Collect and destroy the white grub beetles from jujube or neem trees around the field after the early rains."
+      ],
+      "biological": [
+        "Use entomopathogenic nematodes (EPN) at one billion per acre in infested fields."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Do deep ploughing in summer to expose the grubs.",
+        "Collect and destroy the white grub beetles from jujube or neem trees around the field after the early rains.",
+        "Sow in time with the pre-monsoon showers."
+      ],
+      "biological": [
+        "Use entomopathogenic nematodes (EPN) at one billion per acre in infested fields."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Do deep ploughing in summer to expose the grubs.",
+        "Collect and destroy the white grub beetles from jujube or neem trees around the field after the early rains.",
+        "Sow in time with the pre-monsoon showers."
+      ],
+      "biological": [
+        "Use entomopathogenic nematodes (EPN) at one billion per acre in infested fields."
+      ],
+      "chemical": [
+        {
+          "active": "chlorpyrifos",
+          "formulation": "20% EC (seed treatment)",
+          "dose": "2.5 to 12.5",
+          "dose_unit": "ml/kg seed",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Groundnut (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Groundnut.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Groundnut.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Potato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Potato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Potato.txt"
+    }
+  ]
+}

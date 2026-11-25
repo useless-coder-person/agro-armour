@@ -1,0 +1,39 @@
+{
+  "source": {
+    "title": "List of pesticides which are banned, refused registration and restricted in use (updated on 31.10.2026)",
+    "publisher": "Directorate of Plant Protection, Quarantine & Storage (CIB&RC), Government of India",
+    "url": "https://ppqs.gov.in/sites/default/files/list_of_pesticides_which_are_banned_refused_registration_and_restricted_in_use%20%2831.10.26%29.pdf",
+    "accessed": "2026-11-19"
+  },
+  "banned": ["alachlor", "aldicarb", "aldrin", "benzene hexachloride", "benomyl", "calcium cyanide", "carbaryl",
+             "chlorbenzilate", "chlordane", "chlorofenvinphos", "copper acetoarsenite", "diazinon",
+             "dibromochloropropane", "dichlorovos", "dichlorvos", "dicofol", "dieldrin", "dinocap", "endosulfan",
+             "endrin", "ethyl mercury chloride", "ethyl parathion", "ethylene dibromide", "fenarimol", "fenthion",
+             "heptachlor", "lindane", "linuron", "maleic hydrazide", "menazon", "methomyl",
+             "methoxy ethyl mercury chloride", "methyl parathion", "metoxuron", "nitrofen", "paraquat",
+             "pentachloro nitrobenzene", "pentachlorophenol", "phenyl mercury acetate", "phorate", "phosphamidon",
+             "sodium cyanide", "sodium methane arsonate", "tetradifon", "thiometon", "toxaphene", "triazophos",
+             "tridemorph", "trichloro acetic acid", "trichlorfon", "captafol", "nicotin sulfate", "nicotine sulfate",
+             "dalapon", "ferbam", "formothion", "nickel chloride", "paradichlorobenzene", "simazine", "sirmate",
+             "warfarin", "2,4,5-t", "ammonium sulphamate", "azinphos", "binapacryl", "calcium arsenate",
+             "carbophenothion", "chinomethionate", "dicrotophos", "epn", "fentin", "lead arsenate", "leptophos",
+             "mephosfolan", "mevinphos", "thiodemeton", "disulfoton", "vamidothion", "ddt", "fenitrothion",
+             "trifluralin"],
+  "restricted_crops": {
+    "chlorpyriphos": ["ber", "citrus", "tobacco"],
+    "chlorpyrifos": ["ber", "citrus", "tobacco"],
+    "dimethoate": ["tomato", "fruits", "vegetables"],
+    "malathion": ["sorghum", "pea", "soybean", "castor", "sunflower", "bhindi", "brinjal", "cauliflower", "radish",
+                  "turnip", "tomato", "apple", "mango", "grape"],
+    "mancozeb": ["guava", "jowar", "tapioca"],
+    "monocrotophos": ["tomato", "potato", "vegetables"],
+    "oxyfluorfen": ["potato", "groundnut"],
+    "quinalphos": ["jute", "cardamom", "sorghum"]
+  },
+  "project_excluded": {
+    "monocrotophos": "36% SL discontinued (S.O. 4294(E), 3 Oct 2023); banned on vegetables. Excluded from Agro ARMour everywhere.",
+    "carbofuran": "Only the 3% CG formulation may be used (S.O. 4294(E)); highly hazardous granule. Excluded from Agro ARMour.",
+    "aluminium phosphide": "Restricted to government-supervised pest control operators.",
+    "methyl bromide": "Restricted to government-supervised pest control operators."
+  }
+}

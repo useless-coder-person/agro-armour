@@ -1,0 +1,82 @@
+{
+  "id": "pest.G_THRIPS",
+  "kind": "pest",
+  "key": "G_THRIPS",
+  "crops": [
+    "wheat",
+    "groundnut"
+  ],
+  "names": {
+    "en": "Thrips",
+    "scientific": "Anaphothrips favicinctus"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "Thrips are very small brown or black insects with narrow fringed wings.",
+    "Heavy attack makes the leaf tissue look silver."
+  ],
+  "damage": "The thrips feed on the sheath of the flag leaf, the stem and the heads.",
+  "severity": {
+    "mode": "count",
+    "thresholds": {
+      "etl": "Groundnut: 5 adults/terminal buds."
+    },
+    "source_id": "S2"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Use blue sticky traps for thrips at 4-5 traps/acre.",
+        "Collect and destroy the diseased and insect infected plant parts."
+      ],
+      "biological": [
+        "Protect predatory mites, predatory thrips and hover flies in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Use blue sticky traps for thrips at 4-5 traps/acre.",
+        "Collect and destroy the diseased and insect infected plant parts."
+      ],
+      "biological": [
+        "Protect predatory mites, predatory thrips and hover flies in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Use blue sticky traps for thrips at 4-5 traps/acre.",
+        "Collect and destroy the diseased and insect infected plant parts."
+      ],
+      "biological": [
+        "Protect predatory mites, predatory thrips and hover flies in the field."
+      ],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Wheat (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Wheat.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Wheat.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Groundnut (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Groundnut.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Groundnut.txt"
+    }
+  ]
+}

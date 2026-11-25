@@ -1,0 +1,79 @@
+{
+  "id": "pest.G_MAIZE_BORER",
+  "kind": "pest",
+  "key": "G_MAIZE_BORER",
+  "crops": [
+    "maize"
+  ],
+  "names": {
+    "en": "Maize stem borer",
+    "scientific": "Chilo partellus"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to the maize stem borer.",
+    "Dead heart in the young plant is a sign of stem borer damage.",
+    "The maize stem borer is a major maize pest in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Do deep summer ploughing and then leave the field fallow.",
+        "Grow a legume as an intercrop with maize. Maize-Soybean, Maize-Cowpea and Maize-Green gram are good examples."
+      ],
+      "biological": [
+        "Release Trichogramma chilonis at 1,60,000 /ha on 7 and 15 days old crop and again if required.",
+        "Protect Cotesia flavipes, spiders and other natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Do deep summer ploughing and then leave the field fallow.",
+        "Grow a legume as an intercrop with maize. Maize-Soybean, Maize-Cowpea and Maize-Green gram are good examples.",
+        "Remove the dead hearts. This reduces the second generation attack.",
+        "Use fertilizers in a balanced way."
+      ],
+      "biological": [
+        "Release Trichogramma chilonis at 1,60,000 /ha on 7 and 15 days old crop and again if required.",
+        "Protect Cotesia flavipes, spiders and other natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Do deep summer ploughing and then leave the field fallow.",
+        "Grow a legume as an intercrop with maize. Maize-Soybean, Maize-Cowpea and Maize-Green gram are good examples.",
+        "Remove the dead hearts. This reduces the second generation attack.",
+        "Use fertilizers in a balanced way."
+      ],
+      "biological": [
+        "Release Trichogramma chilonis at 1,60,000 /ha on 7 and 15 days old crop and again if required.",
+        "Protect Cotesia flavipes, spiders and other natural enemies in the field."
+      ],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Maize (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Maize.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Maize.txt"
+    }
+  ]
+}

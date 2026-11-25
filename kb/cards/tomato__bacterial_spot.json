@@ -1,0 +1,83 @@
+{
+  "id": "disease.tomato__bacterial_spot",
+  "kind": "disease",
+  "key": "tomato__bacterial_spot",
+  "crops": [
+    "tomato"
+  ],
+  "names": {
+    "en": "Bacterial spot of tomato",
+    "scientific": "Xanthomonas campestris pv. vesicatoria"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "Small brown water soaked round spots with a yellow halo appear on the leaves.",
+    "Small water soaked spots appear on green fruit. Later they become raised and scabby."
+  ],
+  "damage": "Older leaves can lose many leaflets in moist weather.",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Remove and destroy the plant debris.",
+        "Remove the weeds and volunteer tomato plants."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Remove and destroy the plant debris.",
+        "Remove the weeds and volunteer tomato plants.",
+        "Use seedlings from healthy seed beds."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Remove and destroy the plant debris.",
+        "Remove the weeds and volunteer tomato plants.",
+        "Use seedlings from healthy seed beds."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "streptomycin sulfate + tetracycline hydrochloride",
+          "formulation": "9% + 1% SP",
+          "dose": "40-100",
+          "dose_unit": "ppm",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the disease is seen on the crop. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {
+    "AP": "Bacterial leaf spot is reported on tomato in this state.",
+    "TN": "Bacterial leaf spot is reported on tomato in this state.",
+    "KA": "Bacterial leaf spot is reported on tomato in this state."
+  },
+  "season_notes": {},
+  "stage_notes": {
+    "seedling": "Give two sprays. Give one before transplanting in the seed bed and one after transplanting in the main field."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Tomato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Tomato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Tomato.txt"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+# One env for training + export (WSL2 Ubuntu / Kaggle Linux). Versions mirror VERSIONS.lock.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.14.0
+torchvision==0.29.2
+executorch==1.5.1
+ultralytics==8.4.192
+numpy>=2.0,<=2.3.5
+pyyaml
+jsonschema
+imagehash
+pillow
+kaggle
+huggingface_hub
+markdown  # report build
+pypdf
+cryptography  # KB source PDF extraction
+jsonschema

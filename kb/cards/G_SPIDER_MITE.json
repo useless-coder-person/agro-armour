@@ -1,0 +1,93 @@
+{
+  "id": "pest.G_SPIDER_MITE",
+  "kind": "pest",
+  "key": "G_SPIDER_MITE",
+  "also_keys": [
+    "tomato__spider_mites"
+  ],
+  "crops": [
+    "tomato",
+    "potato"
+  ],
+  "names": {
+    "en": "Spider mite",
+    "scientific": "Tetranychus spp."
+  },
+  "relevance_india": "medium",
+  "identify": [
+    "Very small red mites live on the leaves.",
+    "The leaves turn reddish brown and bronze in colour."
+  ],
+  "damage": "Heavy attack makes silken webbing on the leaves. The leaves wither and dry. Flower and fruit formation is affected.",
+  "severity": {
+    "mode": "count",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Do field sanitation and remove the affected plants.",
+        "Plant tall border crops such as maize and sorghum."
+      ],
+      "biological": [
+        "Protect predatory mites, ladybird beetles and lacewings in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Do field sanitation and remove the affected plants.",
+        "Plant tall border crops such as maize and sorghum."
+      ],
+      "biological": [
+        "Protect predatory mites, ladybird beetles and lacewings in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Do field sanitation and remove the affected plants.",
+        "Plant tall border crops such as maize and sorghum."
+      ],
+      "biological": [
+        "Protect predatory mites, ladybird beetles and lacewings in the field."
+      ],
+      "chemical": [
+        {
+          "active": "spiromesifen",
+          "formulation": "22.9% SC",
+          "dose": "250",
+          "dose_unit": "ml in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Tomato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Tomato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Tomato.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Potato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Potato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Potato.txt"
+    }
+  ]
+}

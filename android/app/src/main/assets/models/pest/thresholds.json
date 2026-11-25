@@ -1,0 +1,166 @@
+{
+ "precision_target": 0.85,
+ "medium_frac": 0.6,
+ "default": 0.469,
+ "class_to_group": [
+  "G_RICE_LEAFFOLDER",
+  "G_RICE_CATERPILLAR",
+  "G_RICE_STEMBORER",
+  "G_RICE_STEMBORER",
+  "G_RICE_GALL_MIDGE",
+  "G_PLANTHOPPER",
+  "G_PLANTHOPPER",
+  "G_PLANTHOPPER",
+  "G_RICE_WATER_WEEVIL",
+  "G_LEAFHOPPER",
+  "G_WHITE_GRUB",
+  "G_MOLE_CRICKET",
+  "G_WIREWORM",
+  "G_CUTWORM",
+  "G_CUTWORM",
+  "G_CUTWORM",
+  "G_SPIDER_MITE",
+  "G_MAIZE_BORER",
+  "G_ARMYWORM",
+  "G_APHID",
+  "G_APHID",
+  "G_APHID",
+  "G_APHID",
+  "G_SPIDER_MITE",
+  "G_SAWFLY",
+  "G_FLEA_BEETLE",
+  "G_ARMYWORM",
+  "G_ARMYWORM",
+  "G_BEET_WEEVIL",
+  "G_BUDWORM",
+  "G_MIRID_BUG",
+  "G_LOCUST",
+  "G_BLISTER_BEETLE",
+  "G_BLISTER_BEETLE",
+  "G_THRIPS",
+  "G_SLUG_CATERPILLAR",
+  "G_LEAFHOPPER",
+  "G_MIRID_BUG",
+  "G_WHITEFLY",
+  "G_FRUIT_FLY",
+  "G_TOBACCO_CATERPILLAR",
+  "G_LEAFHOPPER"
+ ],
+ "groups": {
+  "G_APHID": {
+   "threshold": 0.133,
+   "val_support": 89
+  },
+  "G_ARMYWORM": {
+   "threshold": 0.666,
+   "val_support": 66
+  },
+  "G_BEET_WEEVIL": {
+   "threshold": 0.469,
+   "val_support": 18,
+   "fallback": true
+  },
+  "G_BLISTER_BEETLE": {
+   "threshold": 0.21,
+   "val_support": 113
+  },
+  "G_BUDWORM": {
+   "threshold": 0.469,
+   "val_support": 22,
+   "fallback": true
+  },
+  "G_CUTWORM": {
+   "threshold": 0.648,
+   "val_support": 59
+  },
+  "G_FLEA_BEETLE": {
+   "threshold": 0.19,
+   "val_support": 28
+  },
+  "G_FRUIT_FLY": {
+   "threshold": 0.818,
+   "val_support": 7
+  },
+  "G_LEAFHOPPER": {
+   "threshold": 0.174,
+   "val_support": 269
+  },
+  "G_LOCUST": {
+   "threshold": 0.676,
+   "val_support": 45
+  },
+  "G_MAIZE_BORER": {
+   "threshold": 0.665,
+   "val_support": 41
+  },
+  "G_MIRID_BUG": {
+   "threshold": 0.18,
+   "val_support": 125
+  },
+  "G_MOLE_CRICKET": {
+   "threshold": 0.139,
+   "val_support": 69
+  },
+  "G_PLANTHOPPER": {
+   "threshold": 0.379,
+   "val_support": 16
+  },
+  "G_RICE_CATERPILLAR": {
+   "threshold": 0.469,
+   "val_support": 1,
+   "fallback": true
+  },
+  "G_RICE_GALL_MIDGE": {
+   "threshold": 0.539,
+   "val_support": 7
+  },
+  "G_RICE_LEAFFOLDER": {
+   "threshold": 0.543,
+   "val_support": 15
+  },
+  "G_RICE_STEMBORER": {
+   "threshold": 0.469,
+   "val_support": 17,
+   "fallback": true
+  },
+  "G_RICE_WATER_WEEVIL": {
+   "threshold": 0.578,
+   "val_support": 8
+  },
+  "G_SAWFLY": {
+   "threshold": 0.549,
+   "val_support": 9
+  },
+  "G_SLUG_CATERPILLAR": {
+   "threshold": 0.469,
+   "val_support": 0,
+   "fallback": true
+  },
+  "G_SPIDER_MITE": {
+   "threshold": 0.186,
+   "val_support": 19
+  },
+  "G_THRIPS": {
+   "threshold": 0.469,
+   "val_support": 4,
+   "fallback": true
+  },
+  "G_TOBACCO_CATERPILLAR": {
+   "threshold": 0.725,
+   "val_support": 40
+  },
+  "G_WHITEFLY": {
+   "threshold": 0.469,
+   "val_support": 9,
+   "fallback": true
+  },
+  "G_WHITE_GRUB": {
+   "threshold": 0.362,
+   "val_support": 34
+  },
+  "G_WIREWORM": {
+   "threshold": 0.398,
+   "val_support": 35
+  }
+ }
+}

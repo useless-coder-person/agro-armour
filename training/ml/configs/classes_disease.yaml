@@ -1,0 +1,66 @@
+# Disease classifier label space: <crop>__<condition>. Source folder -> label maps.
+# kind: disease (default) | pest_damage (routed to the matching pest card) | healthy | other
+# Field sources: plantdoc, paddy_doctor. Lab source: plantvillage (train only, <=300/class).
+kinds:
+  pest_damage: [rice__dead_heart, rice__hispa, tomato__spider_mites]
+  # rice__dead_heart -> G_RICE_STEMBORER card; rice__hispa -> rice hispa card (no IP102 class); tomato__spider_mites -> G_SPIDER_MITE
+sources:
+  plantdoc:            # raw/plantdoc/{train,test}/<folder>
+    field: true
+    root: plantdoc
+    map:
+      Tomato Early blight leaf: tomato__early_blight
+      Tomato Septoria leaf spot: tomato__septoria_leaf_spot
+      Tomato leaf: tomato__healthy
+      Tomato leaf bacterial spot: tomato__bacterial_spot
+      Tomato leaf late blight: tomato__late_blight
+      Tomato leaf mosaic virus: tomato__mosaic_virus
+      Tomato leaf yellow virus: tomato__yellow_leaf_curl_virus
+      Tomato mold leaf: tomato__leaf_mold
+      Tomato two spotted spider mites leaf: tomato__spider_mites
+      Potato leaf early blight: potato__early_blight
+      Potato leaf late blight: potato__late_blight
+      Corn Gray leaf spot: maize__gray_leaf_spot
+      Corn leaf blight: maize__northern_leaf_blight
+      Corn rust leaf: maize__common_rust
+  paddy_doctor:        # raw/paddy_doctor/paddy-disease-classification/train_images/<folder>
+    field: true
+    root: paddy_doctor/paddy-disease-classification/train_images
+    map:
+      bacterial_leaf_blight: rice__bacterial_leaf_blight
+      bacterial_leaf_streak: rice__bacterial_leaf_streak
+      bacterial_panicle_blight: rice__bacterial_panicle_blight
+      blast: rice__blast
+      brown_spot: rice__brown_spot
+      dead_heart: rice__dead_heart
+      downy_mildew: rice__downy_mildew
+      hispa: rice__hispa
+      normal: rice__healthy
+      tungro: rice__tungro
+  plantvillage:        # raw/plantvillage/plantvillage dataset/color/<folder>
+    field: false
+    root: plantvillage/plantvillage dataset/color
+    cap: 300
+    map:
+      Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot: maize__gray_leaf_spot
+      Corn_(maize)___Common_rust_: maize__common_rust
+      Corn_(maize)___Northern_Leaf_Blight: maize__northern_leaf_blight
+      Corn_(maize)___healthy: maize__healthy
+      Potato___Early_blight: potato__early_blight
+      Potato___Late_blight: potato__late_blight
+      Potato___healthy: potato__healthy
+      Tomato___Bacterial_spot: tomato__bacterial_spot
+      Tomato___Early_blight: tomato__early_blight
+      Tomato___Late_blight: tomato__late_blight
+      Tomato___Leaf_Mold: tomato__leaf_mold
+      Tomato___Septoria_leaf_spot: tomato__septoria_leaf_spot
+      Tomato___Spider_mites Two-spotted_spider_mite: tomato__spider_mites
+      Tomato___Tomato_Yellow_Leaf_Curl_Virus: tomato__yellow_leaf_curl_virus
+      Tomato___Tomato_mosaic_virus: tomato__mosaic_virus
+      Tomato___healthy: tomato__healthy
+      # Tomato___Target_Spot skipped: no field images in PlantDoc to check it against.
+  coco_not_a_leaf:     # raw/not_a_leaf/images/*.jpg: 900 COCO 2017 images, per-image licence CC BY 2.0 / CC BY-SA 2.0 /
+    field: false       # no known copyright / US Gov work, no plant categories, <= 12 % green pixels.
+    root: not_a_leaf   # Built by the Kaggle kernel ml/data/kaggle_not_a_leaf (attribution: manifest.csv).
+    map:
+      images: other__not_a_leaf

@@ -1,0 +1,55 @@
+# Pest classes selected for the detector (IP102 0-based indices).
+# `boxes` = the baseline table. Verified 2026-11-16 by ml/data/audit_ip102.py: these are box
+# counts in the *train* split of the Kaggle repack leonidkulyk/ip102-yolov5 (not the official split).
+# Selection rule: keep these 34; optionally add India-priority classes with 40-99 boxes.
+baseline:
+  0: {name: rice leaf roller, boxes: 177}
+  1: {name: rice leaf caterpillar, boxes: 122}
+  3: {name: asiatic rice borer, boxes: 166}
+  7: {name: brown plant hopper, boxes: 109}
+  10: {name: rice water weevil, boxes: 142}
+  11: {name: rice leafhopper, boxes: 111}
+  14: {name: grub, boxes: 608}
+  15: {name: mole cricket, boxes: 816}
+  16: {name: wireworm, boxes: 499}
+  18: {name: black cutworm, boxes: 296}
+  19: {name: large cutworm, boxes: 162}
+  20: {name: yellow cutworm, boxes: 195}
+  21: {name: red spider, boxes: 157}
+  22: {name: corn borer, boxes: 409}
+  23: {name: army worm, boxes: 199}
+  24: {name: aphids, boxes: 1284}
+  27: {name: english grain aphid, boxes: 287}
+  29: {name: bird cherry-oat aphid, boxes: 119}
+  34: {name: wheat sawfly, boxes: 135}
+  37: {name: flea beetle, boxes: 357}
+  38: {name: cabbage army worm, boxes: 249}
+  39: {name: beet army worm, boxes: 391}
+  42: {name: beet weevil, boxes: 146}
+  45: {name: flax budworm, boxes: 404}
+  47: {name: tarnished plant bug, boxes: 341}
+  48: {name: Locustoidea, boxes: 513}
+  50: {name: legume blister beetle, boxes: 444}
+  51: {name: blister beetle, boxes: 947}
+  58: {name: Limacodidae, boxes: 194}
+  69: {name: Cicadella viridis, boxes: 192}
+  70: {name: Miridae, boxes: 1179}
+  71: {name: Trialeurodes vaporariorum, boxes: 105}
+  86: {name: Prodenia litura, boxes: 404}
+  101: {name: Cicadellidae, boxes: 2765}
+# India-priority candidates. Added only if 40-99 boxes on the same basis.
+# Fruit-crop names are matched against ip102.yaml by audit_ip102.py.
+india_priority: [2, 4, 5, 8, 9, 12, 28, 32]
+india_priority_names: [oriental fruit fly, citrus leaf miner, mango leafhopper, Thrips]
+# Added 2026-11-16 after audit: "34 + India-priority".
+# repack_train boxes: 4:76 5:88 8:73 9:50 28:70 32:60 54:45 (40-99 rule), 84:123 (oriental fruit fly, >=100, India-priority).
+# Not added: 2 paddy stem maggot (23), 12 grain spreader thrips (19), 88 citrus leaf miner (21), 98 mango leafhopper (12): <40.
+added:
+  4: {name: yellow rice borer}
+  5: {name: rice gall midge}
+  8: {name: white backed plant hopper}
+  9: {name: small brown plant hopper}
+  28: {name: green bug}
+  32: {name: longlegged spider mite}
+  54: {name: Thrips}
+  84: {name: oriental fruit fly (Dacus dorsalis)}

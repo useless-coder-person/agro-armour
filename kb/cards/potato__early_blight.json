@@ -1,0 +1,99 @@
+{
+  "id": "disease.potato__early_blight",
+  "kind": "disease",
+  "key": "potato__early_blight",
+  "crops": [
+    "potato"
+  ],
+  "names": {
+    "en": "Early blight of potato",
+    "scientific": "Alternaria solani"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "Small black spots appear on the older leaves.",
+    "The spots grow and show rings like a bull's eye. The tissue around the spot may turn yellow."
+  ],
+  "damage": "Much of the leaves can be killed in hot and humid weather. Spots on the stem can girdle the plant.",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Collect and destroy the crop debris.",
+        "Use fertilizers in a balanced way."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Collect and destroy the crop debris.",
+        "Use fertilizers in a balanced way.",
+        "Avoid water logging.",
+        "Collect and destroy the diseased plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Collect and destroy the crop debris.",
+        "Use fertilizers in a balanced way.",
+        "Avoid water logging.",
+        "Collect and destroy the diseased plant parts."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "mancozeb",
+          "formulation": "75% WP",
+          "dose": "600-800",
+          "dose_unit": "g in 300 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "captan",
+          "formulation": "75% WP",
+          "dose": "666",
+          "dose_unit": "g in 400 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "hexaconazole",
+          "formulation": "2% SC",
+          "dose": "1.2",
+          "dose_unit": "l in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the disease is seen on the crop. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {
+    "vegetative": "The disease is seen mostly during tuber bulking and goes on until harvest."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Potato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Potato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Potato.txt"
+    }
+  ]
+}

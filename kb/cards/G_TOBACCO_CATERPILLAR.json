@@ -1,0 +1,120 @@
+{
+  "id": "pest.G_TOBACCO_CATERPILLAR",
+  "kind": "pest",
+  "key": "G_TOBACCO_CATERPILLAR",
+  "crops": [
+    "tomato",
+    "groundnut"
+  ],
+  "names": {
+    "en": "Tobacco caterpillar",
+    "scientific": "Spodoptera litura"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The young caterpillars live together and scrape the leaf. The leaf looks papery white.",
+    "Later the caterpillars make irregular holes in the leaves."
+  ],
+  "damage": "Heavy attack removes most of the leaves. The caterpillars also make holes in the fruits.",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Groundnut: Spodoptera / Helicoverpa 2 larvae/plant or 20-25% defoliation at 40 days."
+    },
+    "source_id": "S2"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Do field sanitation.",
+        "Install pheromone traps at 4-5/acre to monitor the moths."
+      ],
+      "biological": [
+        "Release the egg parasitoid Trichogramma pretiosum at 20,000/acre/week four times.",
+        "Spray NSKE 5% against the eggs and first instar larvae."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Do field sanitation.",
+        "Install pheromone traps at 4-5/acre to monitor the moths.",
+        "Grow castor as a trap crop for egg laying.",
+        "Erect bird perches at 20/acre for predatory birds."
+      ],
+      "biological": [
+        "Release the egg parasitoid Trichogramma pretiosum at 20,000/acre/week four times.",
+        "Spray NSKE 5% against the eggs and first instar larvae."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Do field sanitation.",
+        "Install pheromone traps at 4-5/acre to monitor the moths.",
+        "Grow castor as a trap crop for egg laying.",
+        "Erect bird perches at 20/acre for predatory birds."
+      ],
+      "biological": [
+        "Release the egg parasitoid Trichogramma pretiosum at 20,000/acre/week four times.",
+        "Spray NSKE 5% against the eggs and first instar larvae."
+      ],
+      "chemical": [
+        {
+          "active": "indoxacarb",
+          "formulation": "14.5% SC",
+          "dose": "160 - 200",
+          "dose_unit": "ml in 120-240 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "novaluron",
+          "formulation": "10 % EC",
+          "dose": "300",
+          "dose_unit": "ml in 200-400 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "lambda-cyhalothrin",
+          "formulation": "4.9% CS",
+          "dose": "120",
+          "dose_unit": "ml in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {
+    "OD": "The tobacco caterpillar is reported on tomato in this state.",
+    "KA": "The tobacco caterpillar is reported on tomato in this state."
+  },
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Tomato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Tomato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Tomato.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Groundnut (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Groundnut.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Groundnut.txt"
+    }
+  ]
+}

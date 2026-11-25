@@ -1,0 +1,102 @@
+{
+  "id": "disease.tomato__late_blight",
+  "kind": "disease",
+  "key": "tomato__late_blight",
+  "crops": [
+    "tomato"
+  ],
+  "names": {
+    "en": "Late blight of tomato",
+    "scientific": "Phytophthora infestans"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to late blight of tomato.",
+    "Late blight is a major tomato disease."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Do field sanitation.",
+        "Destroy the alternate host plants."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Do field sanitation.",
+        "Destroy the alternate host plants.",
+        "Give light irrigation."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Do field sanitation.",
+        "Destroy the alternate host plants.",
+        "Give light irrigation."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "azoxystrobin",
+          "formulation": "23% SC",
+          "dose": "200",
+          "dose_unit": "ml in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "cymoxanil + mancozeb",
+          "formulation": "8% + 64% WP",
+          "dose": "600",
+          "dose_unit": "g in 200-300 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "famoxadone + cymoxanil",
+          "formulation": "16.6% + 22.1% SC",
+          "dose": "200",
+          "dose_unit": "g in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the disease is seen on the crop. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {
+    "OD": "Late blight is reported on tomato in this state.",
+    "HP": "Late blight is reported on tomato in this state.",
+    "RJ": "Late blight is reported on tomato in this state.",
+    "UP": "Late blight is reported on tomato in this state.",
+    "KA": "Late blight is reported on tomato in this state.",
+    "TN": "Late blight is reported on tomato in this state."
+  },
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Tomato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Tomato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Tomato.txt"
+    }
+  ]
+}

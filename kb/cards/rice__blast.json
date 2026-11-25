@@ -1,0 +1,99 @@
+{
+  "id": "disease.rice__blast",
+  "kind": "disease",
+  "key": "rice__blast",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice blast",
+    "scientific": "Pyricularia oryzae"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to rice blast.",
+    "Blast is a major rice disease in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {
+      "etl": "Early to late tillering: Foliar blast 3-5 lesions/leaf. Panicle initiation to booting: Neck blast 2-5 neck infected plants/m2."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Use a resistant or moderately resistant variety.",
+        "Use disease free pure seed."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Use a resistant or moderately resistant variety.",
+        "Use disease free pure seed.",
+        "Use fertilizers in a balanced way as per local advice.",
+        "Remove and destroy the diseased plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Use a resistant or moderately resistant variety.",
+        "Use disease free pure seed.",
+        "Use fertilizers in a balanced way as per local advice.",
+        "Remove and destroy the diseased plant parts."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "tricyclazole",
+          "formulation": "70% WG",
+          "dose": "300",
+          "dose_unit": "g/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "isoprothiolan",
+          "formulation": "40% EC",
+          "dose": "750",
+          "dose_unit": "ml/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "carbendazim",
+          "formulation": "50% WP",
+          "dose": "250-500",
+          "dose_unit": "g/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the disease is seen on the crop. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "pest.G_PLANTHOPPER",
+  "kind": "pest",
+  "key": "G_PLANTHOPPER",
+  "crops": ["rice"],
+  "names": {"en": "Rice planthopper (brown and white-backed)", "scientific": "Nilaparvata lugens, Sogatella furcifera"},
+  "relevance_india": "high",
+  "identify": [
+    "Small hopping insects sit at the base of the rice plant, near the water.",
+    "The brown planthopper and the white-backed planthopper are major rice pests in India."
+  ],
+  "damage": "They suck sap at the plant base. Heavy attack dries the plants in round patches.",
+  "severity": {
+    "mode": "count",
+    "thresholds": {"etl": "Tillering: 10-15 hoppers/hill. Panicle initiation to booting: 15-20 hoppers/hill."},
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": ["Check the base of the plants every few days.", "Split the nitrogen fertilizer into smaller doses."],
+      "biological": ["Protect spiders and mirid bugs in the field. They eat planthoppers."],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": ["Drain the field for 3 to 4 days.", "Do not use high doses of nitrogen fertilizer."],
+      "biological": ["Protect spiders and mirid bugs in the field. They eat planthoppers."],
+      "chemical": []
+    },
+    "high": {
+      "cultural": ["Drain the field for 3 to 4 days."],
+      "biological": [],
+      "chemical": [
+        {"active": "imidacloprid", "formulation": "70% WG", "dose": "30-35", "dose_unit": "g/ha", "water_l_per_ha": null, "phi_days": null, "source_id": "S1"},
+        {"active": "buprofezin", "formulation": "25% SC", "dose": "800", "dose_unit": "ml/ha", "water_l_per_ha": null, "phi_days": null, "source_id": "S1"},
+        {"active": "ethofenoprox", "formulation": "10% EC", "dose": "500-750", "dose_unit": "ml/ha", "water_l_per_ha": null, "phi_days": null, "source_id": "S1"}
+      ]
+    }
+  },
+  "safety": ["Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {
+    "vegetative": "Act when you count 10-15 hoppers per hill.",
+    "flowering": "Act when you count 15-20 hoppers per hill."
+  },
+  "sources": [
+    {"id": "S1", "title": "Integrated Pest Management Package for Rice (AESA based)", "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+     "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf", "accessed": "2026-11-19", "local_text": "Rice.txt"}
+  ]
+}

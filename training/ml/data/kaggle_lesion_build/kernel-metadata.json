@@ -1,0 +1,4 @@
+{"id": "pranavg77/cropdoc-lesion-build", "title": "cropdoc-lesion-build", "code_file": "build.py", "language": "python",
+ "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_internet": true,
+ "dataset_sources": ["nirmalsankalana/rice-leaf-disease-image", "abdallahalidev/plantvillage-dataset"],
+ "competition_sources": [], "kernel_sources": ["pranavg77/cropdoc-not-a-leaf"]}

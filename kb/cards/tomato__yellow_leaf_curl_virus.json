@@ -1,0 +1,101 @@
+{
+  "id": "disease.tomato__yellow_leaf_curl_virus",
+  "kind": "disease",
+  "key": "tomato__yellow_leaf_curl_virus",
+  "also_keys": [
+    "tomato__leaf_curl_virus"
+  ],
+  "crops": [
+    "tomato"
+  ],
+  "names": {
+    "en": "Tomato leaf curl virus",
+    "scientific": "Tomato leaf curl virus"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The plant is small and the leaves roll downward and crinkle.",
+    "New leaves show some yellow colour and later they curl.",
+    "The whitefly carries this virus from plant to plant."
+  ],
+  "damage": "Older leaves become leathery and brittle. The plant is pale and bushy.",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Raise the nursery under a net with a fine mesh so that the whitefly cannot enter.",
+        "Select seed from healthy plants."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Raise the nursery under a net with a fine mesh so that the whitefly cannot enter.",
+        "Select seed from healthy plants.",
+        "Remove the infected plants carefully and destroy them.",
+        "Do not transplant seedlings that have the virus disease.",
+        "Raise barrier crops such as maize or sorghum around the field."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Raise the nursery under a net with a fine mesh so that the whitefly cannot enter.",
+        "Select seed from healthy plants.",
+        "Remove the infected plants carefully and destroy them.",
+        "Do not transplant seedlings that have the virus disease.",
+        "Raise barrier crops such as maize or sorghum around the field."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "imidacloprid",
+          "formulation": "17.8% SL",
+          "dose": "60-70",
+          "dose_unit": "ml in 200 l of water/acre",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the disease is seen on the crop. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {
+    "MP": "Leaf curl virus is reported on tomato in this state.",
+    "BR": "Leaf curl virus is reported on tomato in this state.",
+    "AS": "Leaf curl virus is reported on tomato in this state.",
+    "OD": "Leaf curl virus is reported on tomato in this state.",
+    "WB": "Leaf curl virus is reported on tomato in this state.",
+    "HR": "Leaf curl virus is reported on tomato in this state.",
+    "HP": "Leaf curl virus is reported on tomato in this state.",
+    "RJ": "Leaf curl virus is reported on tomato in this state.",
+    "PB": "Leaf curl virus is reported on tomato in this state.",
+    "UP": "Leaf curl virus is reported on tomato in this state.",
+    "GJ": "Leaf curl virus is reported on tomato in this state.",
+    "MH": "Leaf curl virus is reported on tomato in this state.",
+    "AP": "Leaf curl virus is reported on tomato in this state.",
+    "KA": "Leaf curl virus is reported on tomato in this state.",
+    "TN": "Leaf curl virus is reported on tomato in this state."
+  },
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Tomato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Tomato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Tomato.txt"
+    }
+  ]
+}

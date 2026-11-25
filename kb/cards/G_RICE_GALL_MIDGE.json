@@ -1,0 +1,95 @@
+{
+  "id": "pest.G_RICE_GALL_MIDGE",
+  "kind": "pest",
+  "key": "G_RICE_GALL_MIDGE",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice gall midge",
+    "scientific": "Orseolia oryzae"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to the rice gall midge.",
+    "The silver shoot is a sign of gall midge damage.",
+    "The gall midge is a major rice pest in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Early to late tillering: 1 gall/m2 or 10% Silver shoot."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Drain the rice field for 5-7 days.",
+        "Control grassy weeds and wild rice around the field."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Drain the rice field for 5-7 days.",
+        "Control grassy weeds and wild rice around the field.",
+        "Plant early and use early maturing varieties.",
+        "Use only moderate amounts of nitrogen and potassium fertilizers in split doses.",
+        "Plough under the ratoon of the previous crop.",
+        "Complete the planting in an area within 3 weeks."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Drain the rice field for 5-7 days.",
+        "Control grassy weeds and wild rice around the field.",
+        "Plant early and use early maturing varieties.",
+        "Use only moderate amounts of nitrogen and potassium fertilizers in split doses.",
+        "Plough under the ratoon of the previous crop.",
+        "Complete the planting in an area within 3 weeks."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "carbosulfan",
+          "formulation": "25% EC",
+          "dose": "800-1000",
+          "dose_unit": "ml/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "carbosulfan",
+          "formulation": "6% G",
+          "dose": "16700",
+          "dose_unit": "g/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

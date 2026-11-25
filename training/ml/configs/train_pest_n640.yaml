@@ -1,0 +1,22 @@
+# P1 baseline. Keys other than `model`/`data` are passed straight to Ultralytics train().
+model: yolo26n.pt          # COCO-pretrained
+data: datasets/pest/pest.yaml   # relative to $AGROARMOUR_WORK
+imgsz: 640
+epochs: 120
+patience: 25
+batch: 16                  # RTX 4050 6 GB with AMP; 32-48 on a T4
+workers: 4                 # WSL2 has 7 GB RAM: keep <=4, no RAM cache
+cache: false
+cos_lr: true
+close_mosaic: 10
+mosaic: 1.0
+mixup: 0.0
+fliplr: 0.5
+flipud: 0.2
+degrees: 10
+hsv_h: 0.015
+hsv_s: 0.5
+hsv_v: 0.4
+seed: 0
+deterministic: false
+save_period: 5

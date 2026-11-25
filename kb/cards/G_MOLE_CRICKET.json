@@ -1,0 +1,61 @@
+{
+  "id": "pest.G_MOLE_CRICKET",
+  "kind": "pest",
+  "key": "G_MOLE_CRICKET",
+  "crops": [
+    "potato"
+  ],
+  "names": {
+    "en": "mole cricket"
+  },
+  "relevance_india": "low",
+  "identify": [
+    "The photo model matched this to mole cricket.",
+    "This pest is not common in India. Ask an expert to confirm it."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Collect and destroy the insect infested plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Collect and destroy the insect infested plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Collect and destroy the insect infested plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Potato (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Potato.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Potato.txt"
+    }
+  ]
+}

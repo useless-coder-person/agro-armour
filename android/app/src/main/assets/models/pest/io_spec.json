@@ -1,0 +1,31 @@
+{
+ "task": "detect",
+ "input": [
+  1,
+  3,
+  640,
+  640
+ ],
+ "input_dtype": "float32",
+ "input_layout": "NCHW RGB [0,1]",
+ "letterbox_pad": 114,
+ "outputs": [
+  [
+   1,
+   46,
+   8400
+  ]
+ ],
+ "decoder": "raw",
+ "nc": 42,
+ "executorch": "1.5.1",
+ "sha256": "027bda6c212909092df69a9e493315bc72f013b066270fe102a6b5e03ed705f1",
+ "tensor_parity_max_abs": 0.00286865234375,
+ "metric_parity": {
+  "metric": "metrics/mAP50(B)",
+  "split": "val",
+  "pt": 0.6275151763977883,
+  "pte": 0.6328357163268125,
+  "data": "/home/pranav/cropdoc/datasets/pest/pest.yaml"
+ }
+}

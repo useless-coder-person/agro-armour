@@ -1,0 +1,22 @@
+[
+ {"code": "AP", "name": "Andhra Pradesh", "lang": "te"},
+ {"code": "AS", "name": "Assam", "lang": "as"},
+ {"code": "BR", "name": "Bihar", "lang": "hi"},
+ {"code": "CG", "name": "Chhattisgarh", "lang": "hi"},
+ {"code": "GJ", "name": "Gujarat", "lang": "gu"},
+ {"code": "HR", "name": "Haryana", "lang": "hi"},
+ {"code": "HP", "name": "Himachal Pradesh", "lang": "hi"},
+ {"code": "JH", "name": "Jharkhand", "lang": "hi"},
+ {"code": "KA", "name": "Karnataka", "lang": "kn"},
+ {"code": "KL", "name": "Kerala", "lang": "ml"},
+ {"code": "MP", "name": "Madhya Pradesh", "lang": "hi"},
+ {"code": "MH", "name": "Maharashtra", "lang": "mr"},
+ {"code": "OD", "name": "Odisha", "lang": "or"},
+ {"code": "PB", "name": "Punjab", "lang": "pa"},
+ {"code": "RJ", "name": "Rajasthan", "lang": "hi"},
+ {"code": "TN", "name": "Tamil Nadu", "lang": "ta"},
+ {"code": "TS", "name": "Telangana", "lang": "te"},
+ {"code": "UP", "name": "Uttar Pradesh", "lang": "hi"},
+ {"code": "UK", "name": "Uttarakhand", "lang": "hi"},
+ {"code": "WB", "name": "West Bengal", "lang": "bn"}
+]

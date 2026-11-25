@@ -1,0 +1,81 @@
+{
+  "id": "disease.rice__bacterial_leaf_blight",
+  "kind": "disease",
+  "key": "rice__bacterial_leaf_blight",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Bacterial leaf blight of rice",
+    "scientific": "Xanthomonas oryzae pv. oryzae"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to bacterial leaf blight of rice.",
+    "Bacterial leaf blight is a major rice disease in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {
+      "etl": "Early to late tillering: BLB 2-3 infected leaves/m2."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Reduce the nitrogen fertilizer. If needed, apply only a small dose of nitrogen in more split doses.",
+        "Use alternate wetting and drying. Do not let the water stand in the field."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Reduce the nitrogen fertilizer. If needed, apply only a small dose of nitrogen in more split doses.",
+        "Use alternate wetting and drying. Do not let the water stand in the field.",
+        "Use a resistant variety.",
+        "Use disease free pure seed."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Reduce the nitrogen fertilizer. If needed, apply only a small dose of nitrogen in more split doses.",
+        "Use alternate wetting and drying. Do not let the water stand in the field.",
+        "Use a resistant variety.",
+        "Use disease free pure seed."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "streptomycin sulphate + tetracycline hydrochloride",
+          "formulation": "9% + 1% SP",
+          "dose": "100-150",
+          "dose_unit": "ppm",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the disease is seen on the crop. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

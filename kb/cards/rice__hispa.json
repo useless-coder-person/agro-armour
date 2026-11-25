@@ -1,0 +1,99 @@
+{
+  "id": "pest_damage.rice__hispa",
+  "kind": "pest_damage",
+  "key": "rice__hispa",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice hispa",
+    "scientific": "Dicladispa armigera"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to damage by the rice hispa beetle.",
+    "The rice hispa is a regional rice pest."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Early to late tillering: 2 adults or 2 dead leaf /hill."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Clip the top three-fourths of the leaves of a badly infested young crop. This removes the eggs and grubs.",
+        "Collect the adults with a sweep net and destroy them."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Clip the top three-fourths of the leaves of a badly infested young crop. This removes the eggs and grubs.",
+        "Collect the adults with a sweep net and destroy them.",
+        "Remove rice ratoons and volunteer rice in the crop-free season.",
+        "Do not top-dress nitrogen fertilizer when hispa attack is high."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Clip the top three-fourths of the leaves of a badly infested young crop. This removes the eggs and grubs.",
+        "Collect the adults with a sweep net and destroy them.",
+        "Remove rice ratoons and volunteer rice in the crop-free season.",
+        "Do not top-dress nitrogen fertilizer when hispa attack is high."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "chlorpyrifos",
+          "formulation": "20% EC",
+          "dose": "1250",
+          "dose_unit": "ml/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "quinalphos",
+          "formulation": "25% gel",
+          "dose": "1000",
+          "dose_unit": "ml/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {
+    "BR": "The rice hispa is a pest of rice in this state.",
+    "WB": "The rice hispa is a pest of rice in this state.",
+    "AS": "The rice hispa is a pest of rice in this state.",
+    "OD": "The rice hispa is a pest of rice in this state.",
+    "PB": "The rice hispa is a pest of rice in this state.",
+    "HP": "The rice hispa is a pest of rice in this state.",
+    "UP": "The rice hispa is a pest of rice in this state.",
+    "UK": "The rice hispa is a pest of rice in this state."
+  },
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

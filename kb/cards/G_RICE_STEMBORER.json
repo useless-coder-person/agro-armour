@@ -1,0 +1,105 @@
+{
+  "id": "pest.G_RICE_STEMBORER",
+  "kind": "pest",
+  "key": "G_RICE_STEMBORER",
+  "also_keys": [
+    "rice__dead_heart"
+  ],
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice stem borer",
+    "scientific": "Scirpophaga incertulas"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to the rice stem borer.",
+    "Dead heart in the young plant and white ear head are signs of stem borer damage.",
+    "The yellow stem borer is a major rice pest in India."
+  ],
+  "damage": "The larva bores into the stem.",
+  "severity": {
+    "mode": "presence_incidence",
+    "thresholds": {
+      "etl": "Early to late tillering: 2 egg-mass/m2 or 10% dead heart or 1 moth/m2 or 25 moths/ trap/week."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Clip the tips of the seedlings before you transplant them.",
+        "Plough the field after harvest and flood it to kill the larvae in the stubble."
+      ],
+      "biological": [
+        "Release Trichogramma japonicum at 1 lakh/ha when you see egg masses or moths.",
+        "Collect egg masses and keep them in a bamboo cage so that the egg parasites can escape."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Clip the tips of the seedlings before you transplant them.",
+        "Plough the field after harvest and flood it to kill the larvae in the stubble.",
+        "Harvest close to the ground to destroy the pest in the stubble.",
+        "Install pheromone traps at 20 traps/ha to trap the male moths."
+      ],
+      "biological": [
+        "Release Trichogramma japonicum at 1 lakh/ha when you see egg masses or moths.",
+        "Collect egg masses and keep them in a bamboo cage so that the egg parasites can escape."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Clip the tips of the seedlings before you transplant them.",
+        "Plough the field after harvest and flood it to kill the larvae in the stubble.",
+        "Harvest close to the ground to destroy the pest in the stubble.",
+        "Install pheromone traps at 20 traps/ha to trap the male moths."
+      ],
+      "biological": [
+        "Release Trichogramma japonicum at 1 lakh/ha when you see egg masses or moths.",
+        "Collect egg masses and keep them in a bamboo cage so that the egg parasites can escape."
+      ],
+      "chemical": [
+        {
+          "active": "cartap hydrochloride",
+          "formulation": "4% granules",
+          "dose": "18750",
+          "dose_unit": "g/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        },
+        {
+          "active": "cartap hydrochloride",
+          "formulation": "50% SP",
+          "dose": "1000",
+          "dose_unit": "g/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the pest count crosses the threshold. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {
+    "seedling": "In the nursery, act when you see 1 egg-mass/m2."
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

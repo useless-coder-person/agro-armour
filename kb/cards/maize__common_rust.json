@@ -1,0 +1,79 @@
+{
+  "id": "disease.maize__common_rust",
+  "kind": "disease",
+  "key": "maize__common_rust",
+  "crops": [
+    "maize"
+  ],
+  "names": {
+    "en": "Common rust of maize",
+    "scientific": "Puccinia sorghi"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to common rust of maize.",
+    "Common rust is a major maize disease in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {},
+    "source_id": null
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Use certified seed of a recommended variety.",
+        "Remove the crop debris from the field."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Use certified seed of a recommended variety.",
+        "Remove the crop debris from the field.",
+        "Use crop rotation.",
+        "Use a balanced dose of fertilizer. Avoid a high level of nitrogen."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Use certified seed of a recommended variety.",
+        "Remove the crop debris from the field.",
+        "Use crop rotation.",
+        "Use a balanced dose of fertilizer. Avoid a high level of nitrogen."
+      ],
+      "biological": [],
+      "chemical": [
+        {
+          "active": "zineb",
+          "formulation": "75% WP",
+          "dose": "1.5-2",
+          "dose_unit": "kg/ha",
+          "water_l_per_ha": null,
+          "phi_days": null,
+          "source_id": "S1"
+        }
+      ]
+    }
+  },
+  "safety": [
+    "Spray only when the disease is seen on the crop. Wear gloves and a mask when you spray."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Maize (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Maize.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Maize.txt"
+    }
+  ]
+}

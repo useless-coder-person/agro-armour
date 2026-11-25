@@ -1,0 +1,71 @@
+{
+  "id": "disease.rice__brown_spot",
+  "kind": "disease",
+  "key": "rice__brown_spot",
+  "crops": [
+    "rice"
+  ],
+  "names": {
+    "en": "Rice brown spot",
+    "scientific": "Helminthosporium oryzae"
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to rice brown spot.",
+    "Brown spot is a major rice disease in India."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "lesion_area",
+    "thresholds": {
+      "etl": "Early to late tillering: Brown spot 2-3 spots/leaf & 2-3 infected plants/ m2."
+    },
+    "source_id": "S1"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Use a resistant or moderately resistant variety.",
+        "Use disease free pure seed."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Use a resistant or moderately resistant variety.",
+        "Use disease free pure seed.",
+        "Use fertilizers in a balanced way as per local advice.",
+        "Remove and destroy the diseased plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Use a resistant or moderately resistant variety.",
+        "Use disease free pure seed.",
+        "Use fertilizers in a balanced way as per local advice.",
+        "Remove and destroy the diseased plant parts."
+      ],
+      "biological": [],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    }
+  ]
+}

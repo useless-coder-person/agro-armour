@@ -1,0 +1,86 @@
+{
+  "id": "pest.G_LEAFHOPPER",
+  "kind": "pest",
+  "key": "G_LEAFHOPPER",
+  "crops": [
+    "rice",
+    "cotton"
+  ],
+  "names": {
+    "en": "Green leafhopper",
+    "scientific": "Nephotettix spp."
+  },
+  "relevance_india": "high",
+  "identify": [
+    "The photo model matched this to a leafhopper.",
+    "Green leafhoppers spread virus diseases of rice."
+  ],
+  "damage": "",
+  "severity": {
+    "mode": "count",
+    "thresholds": {
+      "etl": "Cotton: More than 2 leaf hopper per leaf and appearance of crinkling and curling of few leaves in the lower portion of plant + marginal yellowing of leaves."
+    },
+    "source_id": "S2"
+  },
+  "actions": {
+    "low": {
+      "cultural": [
+        "Plant early and do not plant at the time of peak leafhopper activity.",
+        "Transplant older seedlings. They are less open to virus disease."
+      ],
+      "biological": [
+        "Protect natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "medium": {
+      "cultural": [
+        "Plant early and do not plant at the time of peak leafhopper activity.",
+        "Transplant older seedlings. They are less open to virus disease.",
+        "Keep the field and the bunds free of weeds.",
+        "Apply nitrogen at the optimal level."
+      ],
+      "biological": [
+        "Protect natural enemies in the field."
+      ],
+      "chemical": []
+    },
+    "high": {
+      "cultural": [
+        "Plant early and do not plant at the time of peak leafhopper activity.",
+        "Transplant older seedlings. They are less open to virus disease.",
+        "Keep the field and the bunds free of weeds.",
+        "Apply nitrogen at the optimal level."
+      ],
+      "biological": [
+        "Protect natural enemies in the field."
+      ],
+      "chemical": []
+    }
+  },
+  "safety": [
+    "Do not spray chemicals without advice from your local agriculture officer."
+  ],
+  "region_notes": {},
+  "season_notes": {},
+  "stage_notes": {},
+  "sources": [
+    {
+      "id": "S1",
+      "title": "Integrated Pest Management Package for Rice (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Rice.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Rice.txt"
+    },
+    {
+      "id": "S2",
+      "title": "Integrated Pest Management Package for Cotton (AESA based)",
+      "publisher": "NIPHM and Directorate of Plant Protection, Quarantine and Storage, Government of India",
+      "url": "https://www.niphm.gov.in/IPMPackages/Cotton.pdf",
+      "accessed": "2026-11-19",
+      "local_text": "Cotton.txt"
+    }
+  ]
+}
